@@ -1,4 +1,4 @@
-
+![image](https://github.com/julianlpz69/universidadEvaluacion/assets/131847060/d1395b5d-b9ad-47ad-b9c0-8de784d85ac8)
 # universidadEvaluacion
 
 ### 1. Devuelve un listado con el primer apellido, segundo apellido y el nombre de todos los alumnos.El listado deberá estar ordenado alfabéticamente de menor a mayor por el primer apellido, segundo apellido y nombre.
@@ -65,3 +65,16 @@ Ruta : http://localhost:5214/api/persona/womens
 ![Captura de pantalla 2023-11-11 182532](https://github.com/julianlpz69/universidadEvaluacion/assets/131847060/ceb1df92-50e7-4172-ba21-76800aac10ba)
 
 ![Captura de pantalla 2023-11-11 182508](https://github.com/julianlpz69/universidadEvaluacion/assets/131847060/d9b47776-6e89-4e0e-9e27-57a453587c6f)
+
+
+
+<br><br>
+
+
+### 7. Devuelve un listado con todas las asignaturas ofertadas en el `Grado en Ingeniería Informática (Plan 2015)`.
+
+Ruta : http://localhost:5214/api/asignatura/grado
+
+![Captura de pantalla 2023-11-11 183235](https://github.com/julianlpz69/universidadEvaluacion/assets/131847060/1ebabd5b-5d44-4d78-99ab-2ec400b83ba8)
+
+![Captura de pantalla 2023-11-11 183028](https://github.com/julianlpz69/universidadEvaluacion/assets/131847060/612efb6c-3bcb-4300-ac0d-8f7165ba2842)
