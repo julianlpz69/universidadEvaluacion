@@ -5,7 +5,8 @@
 
 Ruta : http://localhost:5214/api/persona/Ordenados
 
-![Captura de pantalla 2023-11-11 141944](https://github.com/julianlpz69/universidadEvaluacion/assets/131847060/b5865dbc-8724-455d-b6db-c2a42dce8931)
+![Captura de pantalla 2023-11-11 144619](https://github.com/julianlpz69/universidadEvaluacion/assets/131847060/8d45c606-e5e8-420b-88c0-0e225f36efb1)
+
 
 ![Captura de pantalla 2023-11-11 141715](https://github.com/julianlpz69/universidadEvaluacion/assets/131847060/a8af8110-e305-42a2-a63a-7bac0e825f91)
 
