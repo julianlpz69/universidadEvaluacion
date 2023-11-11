@@ -41,3 +41,15 @@ Ruta : http://localhost:5214/api/persona/p_sintelefono
 ![Captura de pantalla 2023-11-11 151135](https://github.com/julianlpz69/universidadEvaluacion/assets/131847060/58866a9b-a7d1-4dbe-9b5b-c200a86c0803)
 
 ![Captura de pantalla 2023-11-11 151113](https://github.com/julianlpz69/universidadEvaluacion/assets/131847060/1e68bad7-f964-4414-b4e9-30090da71def)
+
+
+<br><br>
+
+
+### 5. Devuelve el listado de las asignaturas que se imparten en el primer cuatrimestre, en el tercer curso del grado que tiene el identificador `7`.
+
+Ruta : http://localhost:5214/api/persona/p_sintelefono
+
+![Captura de pantalla 2023-11-11 151135](https://github.com/julianlpz69/universidadEvaluacion/assets/131847060/58866a9b-a7d1-4dbe-9b5b-c200a86c0803)
+
+![Captura de pantalla 2023-11-11 151113](https://github.com/julianlpz69/universidadEvaluacion/assets/131847060/1e68bad7-f964-4414-b4e9-30090da71def)
