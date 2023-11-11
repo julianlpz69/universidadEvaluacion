@@ -1,4 +1,4 @@
-# universidadEvaluacion
+![image](https://github.com/julianlpz69/universidadEvaluacion/assets/131847060/4fa6e876-6925-4fb1-b26d-a3fb10cb5e0f)# universidadEvaluacion
 
 ### 1. Devuelve un listado con el primer apellido, segundo apellido y el nombre de todos los alumnos.El listado deberá estar ordenado alfabéticamente de menor a mayor por el primer apellido, segundo apellido y nombre.
 
@@ -20,3 +20,13 @@ Ruta : http://localhost:5214/api/persona/sintelefono
 
 ![Captura de pantalla 2023-11-11 142652](https://github.com/julianlpz69/universidadEvaluacion/assets/131847060/b86edff8-5c45-4bd9-a036-d417fabb22cc)
 
+<br><br>
+
+
+### 2. Devuelve el listado de los alumnos que nacieron en `1999`.
+
+Ruta : http://localhost:5214/api/persona/1999
+
+![Captura de pantalla 2023-11-11 144204](https://github.com/julianlpz69/universidadEvaluacion/assets/131847060/320d195a-c889-4013-a2a9-91b2f4b4475d)
+
+![Captura de pantalla 2023-11-11 144148](https://github.com/julianlpz69/universidadEvaluacion/assets/131847060/a1810521-bd10-4021-b7d1-45e4b9ee5494)
