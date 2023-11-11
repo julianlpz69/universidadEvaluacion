@@ -1,4 +1,5 @@
-![image](https://github.com/julianlpz69/universidadEvaluacion/assets/131847060/4fa6e876-6925-4fb1-b26d-a3fb10cb5e0f)# universidadEvaluacion
+
+# universidadEvaluacion
 
 ### 1. Devuelve un listado con el primer apellido, segundo apellido y el nombre de todos los alumnos.El listado deberá estar ordenado alfabéticamente de menor a mayor por el primer apellido, segundo apellido y nombre.
 
