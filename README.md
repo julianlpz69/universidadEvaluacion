@@ -36,8 +36,8 @@ Ruta : http://localhost:5214/api/persona/1999
 
 ### 4. Devuelve el listado de `profesores` que **no** han dado de alta su número de teléfono en la base de datos y además su nif termina en `K`.
 
-Ruta : http://localhost:5214/api/persona/1999
+Ruta : http://localhost:5214/api/persona/p_sintelefono
 
-![Captura de pantalla 2023-11-11 144204](https://github.com/julianlpz69/universidadEvaluacion/assets/131847060/320d195a-c889-4013-a2a9-91b2f4b4475d)
+![Captura de pantalla 2023-11-11 151135](https://github.com/julianlpz69/universidadEvaluacion/assets/131847060/58866a9b-a7d1-4dbe-9b5b-c200a86c0803)
 
-![Captura de pantalla 2023-11-11 144148](https://github.com/julianlpz69/universidadEvaluacion/assets/131847060/a1810521-bd10-4021-b7d1-45e4b9ee5494)
+![Captura de pantalla 2023-11-11 151113](https://github.com/julianlpz69/universidadEvaluacion/assets/131847060/1e68bad7-f964-4414-b4e9-30090da71def)
