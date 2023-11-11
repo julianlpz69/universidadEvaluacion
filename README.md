@@ -17,10 +17,10 @@ Ruta : http://localhost:5214/api/persona/Ordenados
 
 Ruta : http://localhost:5214/api/persona/sintelefono
 
-![Captura de pantalla 2023-11-11 143413](https://github.com/julianlpz69/universidadEvaluacion/assets/131847060/3b65fe80-c79d-443f-bc55-58491aa8ffa4)
+![Captura de pantalla 2023-11-11 144718](https://github.com/julianlpz69/universidadEvaluacion/assets/131847060/367d692f-1105-4dca-825c-1fd20441912f)
 
+![Captura de pantalla 2023-11-11 144800](https://github.com/julianlpz69/universidadEvaluacion/assets/131847060/eb2e5048-d030-4763-a342-f750ce181c33)
 
-![Captura de pantalla 2023-11-11 142652](https://github.com/julianlpz69/universidadEvaluacion/assets/131847060/b86edff8-5c45-4bd9-a036-d417fabb22cc)
 
 <br><br>
 
