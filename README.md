@@ -26,6 +26,7 @@ Ruta : http://localhost:5214/api/persona/sintelefono
 ### 3. Devuelve el listado de los alumnos que nacieron en `1999`.
 
 Ruta : http://localhost:5214/api/persona/1999
+
 ![Captura de pantalla 2023-11-11 150436](https://github.com/julianlpz69/universidadEvaluacion/assets/131847060/d1bbe315-1b7c-49fc-8817-2700648004f4)
 
 ![Captura de pantalla 2023-11-11 150354](https://github.com/julianlpz69/universidadEvaluacion/assets/131847060/28eeff65-50b9-4e12-ba05-3ec6469a4792)
