@@ -48,8 +48,8 @@ Ruta : http://localhost:5214/api/persona/p_sintelefono
 
 ### 5. Devuelve el listado de las asignaturas que se imparten en el primer cuatrimestre, en el tercer curso del grado que tiene el identificador `7`.
 
-Ruta : http://localhost:5214/api/persona/p_sintelefono
+Ruta : http://localhost:5214/api/asignatura/Cuatrimestre1
 
-![Captura de pantalla 2023-11-11 151135](https://github.com/julianlpz69/universidadEvaluacion/assets/131847060/58866a9b-a7d1-4dbe-9b5b-c200a86c0803)
+![Captura de pantalla 2023-11-11 181433](https://github.com/julianlpz69/universidadEvaluacion/assets/131847060/40e063c6-ae01-455a-85e4-d07ee0333c14)
 
-![Captura de pantalla 2023-11-11 151113](https://github.com/julianlpz69/universidadEvaluacion/assets/131847060/1e68bad7-f964-4414-b4e9-30090da71def)
+![Captura de pantalla 2023-11-11 181421](https://github.com/julianlpz69/universidadEvaluacion/assets/131847060/7daaba9e-654d-4f89-b924-256a24ee74e6)
