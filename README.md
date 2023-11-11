@@ -53,3 +53,15 @@ Ruta : http://localhost:5214/api/asignatura/Cuatrimestre1
 ![Captura de pantalla 2023-11-11 181433](https://github.com/julianlpz69/universidadEvaluacion/assets/131847060/40e063c6-ae01-455a-85e4-d07ee0333c14)
 
 ![Captura de pantalla 2023-11-11 181421](https://github.com/julianlpz69/universidadEvaluacion/assets/131847060/7daaba9e-654d-4f89-b924-256a24ee74e6)
+
+
+<br><br>
+
+
+### 6. Devuelve un listado con los datos de todas las **alumnas** que se han matriculado alguna vez en el `Grado en Ingeniería Informática (Plan 2015)`.
+
+Ruta : http://localhost:5214/api/persona/womens
+
+![Captura de pantalla 2023-11-11 182532](https://github.com/julianlpz69/universidadEvaluacion/assets/131847060/ceb1df92-50e7-4172-ba21-76800aac10ba)
+
+![Captura de pantalla 2023-11-11 182508](https://github.com/julianlpz69/universidadEvaluacion/assets/131847060/d9b47776-6e89-4e0e-9e27-57a453587c6f)
