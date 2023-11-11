@@ -5,10 +5,9 @@
 
 Ruta : http://localhost:5214/api/persona/Ordenados
 
-![Captura de pantalla 2023-11-11 144619](https://github.com/julianlpz69/universidadEvaluacion/assets/131847060/8d45c606-e5e8-420b-88c0-0e225f36efb1)
+![Captura de pantalla 2023-11-11 150411](https://github.com/julianlpz69/universidadEvaluacion/assets/131847060/dc38f463-774f-4815-bb85-97cf2b5d6f24)
 
-
-![Captura de pantalla 2023-11-11 141715](https://github.com/julianlpz69/universidadEvaluacion/assets/131847060/a8af8110-e305-42a2-a63a-7bac0e825f91)
+![Captura de pantalla 2023-11-11 150337](https://github.com/julianlpz69/universidadEvaluacion/assets/131847060/8f796ef7-08f8-416b-9ee2-e5bc668006cb)
 
 <br><br>
 
@@ -17,15 +16,24 @@ Ruta : http://localhost:5214/api/persona/Ordenados
 
 Ruta : http://localhost:5214/api/persona/sintelefono
 
-![Captura de pantalla 2023-11-11 144718](https://github.com/julianlpz69/universidadEvaluacion/assets/131847060/367d692f-1105-4dca-825c-1fd20441912f)
+![Captura de pantalla 2023-11-11 150425](https://github.com/julianlpz69/universidadEvaluacion/assets/131847060/6e076bd6-38b7-4b16-9b81-daa5af700994)
 
-![Captura de pantalla 2023-11-11 144800](https://github.com/julianlpz69/universidadEvaluacion/assets/131847060/eb2e5048-d030-4763-a342-f750ce181c33)
-
+![Captura de pantalla 2023-11-11 150347](https://github.com/julianlpz69/universidadEvaluacion/assets/131847060/acf919e0-93fc-4e9d-a3a8-7d71263875cb)
 
 <br><br>
 
 
-### 2. Devuelve el listado de los alumnos que nacieron en `1999`.
+### 3. Devuelve el listado de los alumnos que nacieron en `1999`.
+
+Ruta : http://localhost:5214/api/persona/1999
+![Captura de pantalla 2023-11-11 150436](https://github.com/julianlpz69/universidadEvaluacion/assets/131847060/d1bbe315-1b7c-49fc-8817-2700648004f4)
+
+![Captura de pantalla 2023-11-11 150354](https://github.com/julianlpz69/universidadEvaluacion/assets/131847060/28eeff65-50b9-4e12-ba05-3ec6469a4792)
+
+<br><br>
+
+
+### 4. Devuelve el listado de `profesores` que **no** han dado de alta su número de teléfono en la base de datos y además su nif termina en `K`.
 
 Ruta : http://localhost:5214/api/persona/1999
 
