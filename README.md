@@ -11,11 +11,11 @@ Ruta : http://localhost:5214/api/persona/Ordenados
 <br><br>
 
 
-### 1. Devuelve un listado con el primer apellido, segundo apellido y el nombre de todos los alumnos.El listado deberá estar ordenado alfabéticamente de menor a mayor por el primer apellido, segundo apellido y nombre.
+### 2. Averigua el nombre y los dos apellidos de los alumnos que **no** han dado de alta su número de teléfono en la base de datos.
 
-Ruta : http://localhost:5214/api/persona/Ordenados
+Ruta : http://localhost:5214/api/persona/sintelefono
 
-![Captura de pantalla 2023-11-11 141944](https://github.com/julianlpz69/universidadEvaluacion/assets/131847060/b5865dbc-8724-455d-b6db-c2a42dce8931)
+![Captura de pantalla 2023-11-11 142704](https://github.com/julianlpz69/universidadEvaluacion/assets/131847060/e4cd9e51-80dc-4eef-a693-2e29c0c2a445)
 
-![Captura de pantalla 2023-11-11 141715](https://github.com/julianlpz69/universidadEvaluacion/assets/131847060/a8af8110-e305-42a2-a63a-7bac0e825f91)
+![Captura de pantalla 2023-11-11 142652](https://github.com/julianlpz69/universidadEvaluacion/assets/131847060/b86edff8-5c45-4bd9-a036-d417fabb22cc)
 
