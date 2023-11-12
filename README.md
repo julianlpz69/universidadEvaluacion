@@ -89,3 +89,16 @@ Ruta : http://localhost:5214/api/profesor/Departamentos
 ![Captura de pantalla 2023-11-11 190128](https://github.com/julianlpz69/universidadEvaluacion/assets/131847060/c3558ec3-c129-4842-ae0f-664fb0b8ee9c)
 
 ![Captura de pantalla 2023-11-11 190112](https://github.com/julianlpz69/universidadEvaluacion/assets/131847060/5ff0779a-8933-46d9-95bd-564c130e2dad)
+
+
+
+<br><br>
+
+### 9. Devuelve un listado con el nombre de las asignaturas, año de inicio y año de fin del curso escolar del alumno con nif `26902806M`.
+
+Ruta : http://localhost:5214/api/persona/AlumnoSolo
+
+![Captura de pantalla 2023-11-11 193308](https://github.com/julianlpz69/universidadEvaluacion/assets/131847060/df254cdb-df35-4886-b0ad-534f45ec5b95)
+
+![Captura de pantalla 2023-11-11 193301](https://github.com/julianlpz69/universidadEvaluacion/assets/131847060/4b62f9a6-d156-47f0-8dfc-5bed112b1ff2)
+
