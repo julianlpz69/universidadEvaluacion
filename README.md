@@ -125,3 +125,13 @@ Ruta : http://localhost:5214/api/persona/matricula2018
 
 ![Captura de pantalla 2023-11-11 194954](https://github.com/julianlpz69/universidadEvaluacion/assets/131847060/c135d40d-680a-44d1-92a3-b58cf1d17217)
 
+<br><br>
+
+### 12. Devuelve un listado con los nombres de **todos** los profesores y los departamentos que tienen vinculados. El listado también debe mostrar aquellos profesores que no tienen ningún departamento asociado. El listado debe devolver cuatro columnas, nombre del departamento, primer apellido, segundo apellido y nombre del profesor. El resultado estará ordenado alfabéticamente de menor a mayor por el nombre del departamento, apellidos y el nombre.
+
+Ruta : http://localhost:5214/api/profesor/Departamentos2
+
+![Captura de pantalla 2023-11-11 200047](https://github.com/julianlpz69/universidadEvaluacion/assets/131847060/2d5c8506-eba9-4075-a859-9f497adf196f)
+
+![Captura de pantalla 2023-11-11 200038](https://github.com/julianlpz69/universidadEvaluacion/assets/131847060/412611ed-eed7-47dc-a1c0-99125d98acf7)
+
