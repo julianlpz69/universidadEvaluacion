@@ -217,3 +217,24 @@ Ruta : http://localhost:5214/api/departamento/NumeroProfes2
 ![Captura de pantalla 2023-11-11 211306](https://github.com/julianlpz69/universidadEvaluacion/assets/131847060/f607d48d-69d1-4e3a-a043-43fe2e7c87d8)
 
 ![Captura de pantalla 2023-11-11 211246](https://github.com/julianlpz69/universidadEvaluacion/assets/131847060/1dd6667b-f2bc-469d-aaad-744f1e5757bc)
+
+
+<br><br>
+
+### 21. Devuelve un listado con el nombre de todos los grados existentes en la base de datos y el número de asignaturas que tiene cada uno. Tenga en cuenta que pueden existir grados que no tienen asignaturas asociadas. Estos grados también tienen que aparecer en el listado. El resultado deberá estar ordenado de mayor a menor por el número de asignaturas.
+
+Ruta : http://localhost:5214/api/grado/Asignaturas
+
+![Captura de pantalla 2023-11-11 212053](https://github.com/julianlpz69/universidadEvaluacion/assets/131847060/c350c86c-a214-4427-b332-a64bc9858449)
+
+![Captura de pantalla 2023-11-11 212042](https://github.com/julianlpz69/universidadEvaluacion/assets/131847060/3a3a4dc8-6514-437f-8e09-29f6590e4be9)
+
+<br><br>
+
+### 22. Devuelve un listado con el nombre de todos los grados existentes en la base de datos y el número de asignaturas que tiene cada uno, de los grados que tengan más de `40` asignaturas asociadas.
+
+Ruta : http://localhost:5214/api/grado/mayor40
+
+![Captura de pantalla 2023-11-11 212857](https://github.com/julianlpz69/universidadEvaluacion/assets/131847060/71fa654f-5484-4134-8293-14c65c3fc802)
+
+![Captura de pantalla 2023-11-11 212844](https://github.com/julianlpz69/universidadEvaluacion/assets/131847060/97049de3-e0a6-4993-b756-a8cf85e4dfb9)
