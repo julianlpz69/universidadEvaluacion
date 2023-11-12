@@ -160,7 +160,7 @@ Ruta : http://localhost:5214/api/profesor/SinAsignatura
 
 <br><br>
 
-### 14. Devuelve un listado con las asignaturas que no tienen un profesor asignado.
+### 15. Devuelve un listado con las asignaturas que no tienen un profesor asignado.
 
 Ruta : http://localhost:5214/api/asignatura/SinProfe
 
@@ -168,4 +168,42 @@ Ruta : http://localhost:5214/api/asignatura/SinProfe
 
 ![Captura de pantalla 2023-11-11 202942](https://github.com/julianlpz69/universidadEvaluacion/assets/131847060/4eaeacbc-1993-4745-a45d-4081c212195f)
 
+
+<br><br>
+
+### 16. Devuelve un listado con todos los departamentos que tienen alguna asignatura que no se haya impartido en ningún curso escolar. El resultado debe mostrar el nombre del departamento y el nombre de la asignatura que no se haya impartido nunca.
+
+Ruta : http://localhost:5214/api/asignatura/SinProfe
+
+
+<br><br>
+
+### 17. Devuelve el número total de **alumnas** que hay.
+
+Ruta : http://localhost:5214/api/persona/CantidadAlumnas
+
+![Captura de pantalla 2023-11-11 205704](https://github.com/julianlpz69/universidadEvaluacion/assets/131847060/c5246f3a-0329-425e-8d04-fe74a0fd6718)
+
+![Captura de pantalla 2023-11-11 205648](https://github.com/julianlpz69/universidadEvaluacion/assets/131847060/415ef9af-2dc9-4021-9811-0a2f37605400)
+
+
+<br><br>
+
+### 18. Calcula cuántos alumnos nacieron en `1999`.
+
+Ruta : http://localhost:5214/api/persona/Nacidos1999
+
+![Captura de pantalla 2023-11-11 210330](https://github.com/julianlpz69/universidadEvaluacion/assets/131847060/93cbdc48-27e8-4661-9168-507e0e92359d)
+
+![Captura de pantalla 2023-11-11 210313](https://github.com/julianlpz69/universidadEvaluacion/assets/131847060/5da47ca6-f681-47db-b6a4-ccb25ef3631f)
+
+<br><br>
+
+### 19. Calcula cuántos profesores hay en cada departamento. El resultado sólo debe mostrar dos columnas, una con el nombre del departamento y otra con el número de profesores que hay en ese departamento. El resultado sólo debe incluir los departamentos que tienen profesores asociados y deberá estar ordenado de mayor a menor por el número de profesores.
+
+Ruta : http://localhost:5214/api/departamento/NumeroProfes
+
+![Captura de pantalla 2023-11-11 210758](https://github.com/julianlpz69/universidadEvaluacion/assets/131847060/10fcb526-baf9-4627-b656-feb88ab524e6)
+
+![Captura de pantalla 2023-11-11 210741](https://github.com/julianlpz69/universidadEvaluacion/assets/131847060/60b21ea4-cac5-4d4a-b057-ddceb9850a4a)
 
