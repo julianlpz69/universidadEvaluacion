@@ -157,3 +157,15 @@ Ruta : http://localhost:5214/api/profesor/SinAsignatura
 
 ![Captura de pantalla 2023-11-11 202213](https://github.com/julianlpz69/universidadEvaluacion/assets/131847060/598d2f87-e5c6-42d6-9156-2b225a5c614e)
 
+
+<br><br>
+
+### 14. Devuelve un listado con las asignaturas que no tienen un profesor asignado.
+
+Ruta : http://localhost:5214/api/asignatura/SinProfe
+
+![Captura de pantalla 2023-11-11 203013](https://github.com/julianlpz69/universidadEvaluacion/assets/131847060/06418c7c-530e-43ec-b29b-fd628f6acc75)
+
+![Captura de pantalla 2023-11-11 202942](https://github.com/julianlpz69/universidadEvaluacion/assets/131847060/4eaeacbc-1993-4745-a45d-4081c212195f)
+
+
