@@ -207,3 +207,13 @@ Ruta : http://localhost:5214/api/departamento/NumeroProfes
 
 ![Captura de pantalla 2023-11-11 210741](https://github.com/julianlpz69/universidadEvaluacion/assets/131847060/60b21ea4-cac5-4d4a-b057-ddceb9850a4a)
 
+
+<br><br>
+
+### 20. Devuelve un listado con todos los departamentos y el número de profesores que hay en cada uno de ellos. Tenga en cuenta que pueden existir departamentos que no tienen profesores asociados. Estos departamentos también tienen que aparecer en el listado.
+
+Ruta : http://localhost:5214/api/departamento/NumeroProfes2
+
+![Captura de pantalla 2023-11-11 211306](https://github.com/julianlpz69/universidadEvaluacion/assets/131847060/f607d48d-69d1-4e3a-a043-43fe2e7c87d8)
+
+![Captura de pantalla 2023-11-11 211246](https://github.com/julianlpz69/universidadEvaluacion/assets/131847060/1dd6667b-f2bc-469d-aaad-744f1e5757bc)
