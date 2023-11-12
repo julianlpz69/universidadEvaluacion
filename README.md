@@ -146,3 +146,14 @@ Ruta : http://localhost:5214/api/departamento/SinProfes
 
 ![Captura de pantalla 2023-11-11 200909](https://github.com/julianlpz69/universidadEvaluacion/assets/131847060/6f1851ce-4230-4426-a736-e057598bc5ce)
 
+
+<br><br>
+
+### 14. Devuelve un listado con los profesores que no imparten ninguna asignatura.
+
+Ruta : http://localhost:5214/api/profesor/SinAsignatura
+
+![Captura de pantalla 2023-11-11 202246](https://github.com/julianlpz69/universidadEvaluacion/assets/131847060/74d7b822-1b75-4098-88b3-59a0671ac2d5)
+
+![Captura de pantalla 2023-11-11 202213](https://github.com/julianlpz69/universidadEvaluacion/assets/131847060/598d2f87-e5c6-42d6-9156-2b225a5c614e)
+
