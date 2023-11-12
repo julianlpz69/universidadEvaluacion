@@ -113,3 +113,15 @@ Ruta : http://localhost:5214/api/departamento/grado
 ![Captura de pantalla 2023-11-11 194240](https://github.com/julianlpz69/universidadEvaluacion/assets/131847060/32ae712c-cce5-43f6-817e-9345a5c177ae)
 
 ![Captura de pantalla 2023-11-11 194246](https://github.com/julianlpz69/universidadEvaluacion/assets/131847060/6008cb4a-762c-442c-bb00-cc9f47bf7289)
+
+
+<br><br>
+
+### 11. Devuelve un listado con todos los alumnos que se han matriculado en alguna asignatura durante el curso escolar 2018/2019.
+
+Ruta : http://localhost:5214/api/persona/matricula2018
+
+![Captura de pantalla 2023-11-11 195004](https://github.com/julianlpz69/universidadEvaluacion/assets/131847060/955e04e0-d32f-4169-95df-858fc97d7caf)
+
+![Captura de pantalla 2023-11-11 194954](https://github.com/julianlpz69/universidadEvaluacion/assets/131847060/c135d40d-680a-44d1-92a3-b58cf1d17217)
+
