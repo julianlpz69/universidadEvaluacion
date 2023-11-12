@@ -102,3 +102,14 @@ Ruta : http://localhost:5214/api/persona/AlumnoSolo
 
 ![Captura de pantalla 2023-11-11 193301](https://github.com/julianlpz69/universidadEvaluacion/assets/131847060/4b62f9a6-d156-47f0-8dfc-5bed112b1ff2)
 
+
+
+<br><br>
+
+### 10. Devuelve un listado con el nombre de todos los departamentos que tienen profesores que imparten alguna asignatura en el `Grado en Ingeniería Informática (Plan 2015)`.
+
+Ruta : http://localhost:5214/api/departamento/grado
+
+![Captura de pantalla 2023-11-11 194240](https://github.com/julianlpz69/universidadEvaluacion/assets/131847060/32ae712c-cce5-43f6-817e-9345a5c177ae)
+
+![Captura de pantalla 2023-11-11 194246](https://github.com/julianlpz69/universidadEvaluacion/assets/131847060/6008cb4a-762c-442c-bb00-cc9f47bf7289)
