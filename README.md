@@ -142,7 +142,7 @@ Ruta : http://localhost:5214/api/profesor/Departamentos2
 
 Ruta : http://localhost:5214/api/departamento/SinProfes
 
-![Captura de pantalla 2023-11-11 200921](https://github.com/julianlpz69/universidadEvaluacion/assets/131847060/98fc3a29-493e-43e8-978d-5dae2abfcab7)
+![Captura de pantalla 2023-11-11 200921](https://github.com/julianlpz69/universidadEvaluacion/assets/131847060/3c7e4118-13c9-49dd-9c5f-5db994e2f194)
 
-![Captura de pantalla 2023-11-11 193301](https://github.com/julianlpz69/universidadEvaluacion/assets/131847060/90634903-27fb-4184-b619-f64879c6d4ff)
+![Captura de pantalla 2023-11-11 200909](https://github.com/julianlpz69/universidadEvaluacion/assets/131847060/6f1851ce-4230-4426-a736-e057598bc5ce)
 
