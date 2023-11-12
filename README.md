@@ -135,3 +135,14 @@ Ruta : http://localhost:5214/api/profesor/Departamentos2
 
 ![Captura de pantalla 2023-11-11 200038](https://github.com/julianlpz69/universidadEvaluacion/assets/131847060/412611ed-eed7-47dc-a1c0-99125d98acf7)
 
+
+<br><br>
+
+### 13. Devuelve un listado con los departamentos que no tienen profesores asociados.
+
+Ruta : http://localhost:5214/api/departamento/SinProfes
+
+![Captura de pantalla 2023-11-11 200921](https://github.com/julianlpz69/universidadEvaluacion/assets/131847060/98fc3a29-493e-43e8-978d-5dae2abfcab7)
+
+![Captura de pantalla 2023-11-11 193301](https://github.com/julianlpz69/universidadEvaluacion/assets/131847060/90634903-27fb-4184-b619-f64879c6d4ff)
+
