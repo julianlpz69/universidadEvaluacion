@@ -1,4 +1,4 @@
-![image](https://github.com/julianlpz69/universidadEvaluacion/assets/131847060/d1395b5d-b9ad-47ad-b9c0-8de784d85ac8)
+![image](https://github.com/julianlpz69/universidadEvaluacion/assets/131847060/70eae31a-5c58-415a-8e1d-95a1931180fb)![image](https://github.com/julianlpz69/universidadEvaluacion/assets/131847060/d1395b5d-b9ad-47ad-b9c0-8de784d85ac8)
 # universidadEvaluacion
 
 ### 1. Devuelve un listado con el primer apellido, segundo apellido y el nombre de todos los alumnos.El listado deberá estar ordenado alfabéticamente de menor a mayor por el primer apellido, segundo apellido y nombre.
@@ -78,3 +78,14 @@ Ruta : http://localhost:5214/api/asignatura/grado
 ![Captura de pantalla 2023-11-11 183235](https://github.com/julianlpz69/universidadEvaluacion/assets/131847060/1ebabd5b-5d44-4d78-99ab-2ec400b83ba8)
 
 ![Captura de pantalla 2023-11-11 183028](https://github.com/julianlpz69/universidadEvaluacion/assets/131847060/612efb6c-3bcb-4300-ac0d-8f7165ba2842)
+
+
+<br><br>
+
+### 8. Devuelve un listado de los `profesores` junto con el nombre del `departamento` al que están vinculados. El listado debe devolver cuatro columnas, `primer apellido, segundo apellido, nombre y nombre del departamento.` El resultado estará ordenado alfabéticamente de menor a mayor por los `apellidos y el nombre.`
+
+Ruta : http://localhost:5214/api/profesor/Departamentos
+
+![Captura de pantalla 2023-11-11 190128](https://github.com/julianlpz69/universidadEvaluacion/assets/131847060/c3558ec3-c129-4842-ae0f-664fb0b8ee9c)
+
+![Captura de pantalla 2023-11-11 190112](https://github.com/julianlpz69/universidadEvaluacion/assets/131847060/5ff0779a-8933-46d9-95bd-564c130e2dad)
