@@ -10,11 +10,12 @@ public class ProfesorConfiguration : IEntityTypeConfiguration<Profesor>
 
         builder.ToTable("Profesor");
 
-        builder.HasOne(p => p.Persona)
-            .WithOne(d => d.Profesor)
-            .HasForeignKey<Persona>(d => d.Id);
 
-    
+        builder.HasOne(p => p.Departamento)
+            .WithMany(p => p.Profesores)
+            .HasForeignKey(p => p.Id_Departamento);
+
+       
     }
 }
 }

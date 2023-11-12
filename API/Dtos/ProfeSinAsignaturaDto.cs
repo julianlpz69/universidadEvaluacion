@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Domain.Entities
+namespace API.Dtos
 {
-    public class BaseEntity
+    public class ProfeSinAsignaturaDto
     {
         public int Id {get; set;}
+        public PersonaDto Datos {get; set;}
     }
-} 
+}

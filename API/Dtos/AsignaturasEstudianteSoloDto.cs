@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Domain.Entities
+namespace API.Dtos
 {
-    public class CursoEscolar : BaseEntity
+    public class AsignaturasEstudianteSoloDto
     {
+        public string NombreAsignatura {get; set;}
         public int Año_Incio {get; set;}
         public int Año_Fin {get; set;}
-        public ICollection<AlumnoMatriculaAsignatura> Alumno_Se_Matricula_Asignaturas {get; set;}
     }
 }

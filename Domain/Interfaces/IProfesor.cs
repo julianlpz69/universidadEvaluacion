@@ -1,0 +1,18 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using Domain.Entities;
+
+namespace Domain.Interfaces
+{
+    public interface IProfesor : IGenericRepository<Profesor>
+    {
+        Task<IEnumerable<Profesor>> ProfesOrdenados();
+        Task<IEnumerable<object>> ProfesoresConDepartamentos();
+        Task<IEnumerable<Profesor>> SinAsignatura();
+        Task<IEnumerable<object>> AsignaturasXProfesor();
+        Task<IEnumerable<Profesor>> ProfesoresSinDepartamento();
+        Task<IEnumerable<Profesor>> ProfesConYSin();
+    }
+}

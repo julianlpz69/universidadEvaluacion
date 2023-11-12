@@ -5,8 +5,9 @@ using System.Threading.Tasks;
 
 namespace Domain.Entities
 {
-    public class BaseEntity
+    public class Genero : BaseEntity
     {
-        public int Id {get; set;}
+        public string Nombre {get; set;}
+        public ICollection<Persona> Personas {get; set;}
     }
-} 
+}

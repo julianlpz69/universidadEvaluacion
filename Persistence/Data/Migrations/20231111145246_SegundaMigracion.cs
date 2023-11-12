@@ -7,7 +7,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace Persistence.Data.Migrations
 {
     /// <inheritdoc />
-    public partial class PRimeraMigracion : Migration
+    public partial class SegundaMigracion : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -46,6 +46,21 @@ namespace Persistence.Data.Migrations
                 .Annotation("MySql:CharSet", "utf8mb4");
 
             migrationBuilder.CreateTable(
+                name: "Genero",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
+                    Nombre = table.Column<string>(type: "longtext", nullable: true)
+                        .Annotation("MySql:CharSet", "utf8mb4")
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Genero", x => x.Id);
+                })
+                .Annotation("MySql:CharSet", "utf8mb4");
+
+            migrationBuilder.CreateTable(
                 name: "grado",
                 columns: table => new
                 {
@@ -61,54 +76,32 @@ namespace Persistence.Data.Migrations
                 .Annotation("MySql:CharSet", "utf8mb4");
 
             migrationBuilder.CreateTable(
-                name: "Profesor",
+                name: "Rol",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
-                    Id_Departamento = table.Column<int>(type: "int", nullable: false),
-                    DepartamentoId = table.Column<int>(type: "int", nullable: true)
+                    Nombre = table.Column<string>(type: "longtext", nullable: true)
+                        .Annotation("MySql:CharSet", "utf8mb4")
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Profesor", x => x.Id);
-                    table.ForeignKey(
-                        name: "FK_Profesor_Departamento_DepartamentoId",
-                        column: x => x.DepartamentoId,
-                        principalTable: "Departamento",
-                        principalColumn: "Id");
+                    table.PrimaryKey("PK_Rol", x => x.Id);
                 })
                 .Annotation("MySql:CharSet", "utf8mb4");
 
             migrationBuilder.CreateTable(
-                name: "asignatura",
+                name: "TipoAsignatura",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
-                    Nombre = table.Column<string>(type: "varchar(100)", maxLength: 100, nullable: true)
-                        .Annotation("MySql:CharSet", "utf8mb4"),
-                    Creditos = table.Column<float>(type: "float", nullable: false),
-                    Curso = table.Column<int>(type: "int", nullable: false),
-                    Cuatrimestre = table.Column<int>(type: "int", nullable: false),
-                    Id_Profesor = table.Column<int>(type: "int", nullable: false),
-                    Id_Grado = table.Column<int>(type: "int", nullable: false)
+                    Nombre = table.Column<string>(type: "longtext", nullable: true)
+                        .Annotation("MySql:CharSet", "utf8mb4")
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_asignatura", x => x.Id);
-                    table.ForeignKey(
-                        name: "FK_asignatura_Profesor_Id_Profesor",
-                        column: x => x.Id_Profesor,
-                        principalTable: "Profesor",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
-                    table.ForeignKey(
-                        name: "FK_asignatura_grado_Id_Grado",
-                        column: x => x.Id_Grado,
-                        principalTable: "grado",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
+                    table.PrimaryKey("PK_TipoAsignatura", x => x.Id);
                 })
                 .Annotation("MySql:CharSet", "utf8mb4");
 
@@ -116,7 +109,8 @@ namespace Persistence.Data.Migrations
                 name: "persona",
                 columns: table => new
                 {
-                    Id = table.Column<int>(type: "int", nullable: false),
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
                     Nif = table.Column<string>(type: "varchar(9)", maxLength: 9, nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4"),
                     Nombre = table.Column<string>(type: "varchar(25)", maxLength: 25, nullable: false)
@@ -129,44 +123,88 @@ namespace Persistence.Data.Migrations
                         .Annotation("MySql:CharSet", "utf8mb4"),
                     Direccion = table.Column<string>(type: "varchar(50)", maxLength: 50, nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4"),
-                    Telefono = table.Column<string>(type: "varchar(9)", maxLength: 9, nullable: false)
+                    Telefono = table.Column<string>(type: "varchar(9)", maxLength: 9, nullable: true)
                         .Annotation("MySql:CharSet", "utf8mb4"),
                     Fecha_Nacimiento = table.Column<DateOnly>(type: "date", nullable: false),
-                    Sexo = table.Column<int>(type: "int", nullable: false),
-                    Tipo = table.Column<int>(type: "int", nullable: false)
+                    IdGenero = table.Column<int>(type: "int", nullable: false),
+                    IdRol = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_persona", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_persona_Profesor_Id",
-                        column: x => x.Id,
-                        principalTable: "Profesor",
+                        name: "FK_persona_Genero_IdGenero",
+                        column: x => x.IdGenero,
+                        principalTable: "Genero",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_persona_Rol_IdRol",
+                        column: x => x.IdRol,
+                        principalTable: "Rol",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                 })
                 .Annotation("MySql:CharSet", "utf8mb4");
 
             migrationBuilder.CreateTable(
-                name: "AsignaturaCursoEscolar",
+                name: "Profesor",
                 columns: table => new
                 {
-                    AsignaturasId = table.Column<int>(type: "int", nullable: false),
-                    CursoEscolarsId = table.Column<int>(type: "int", nullable: false)
+                    Id = table.Column<int>(type: "int", nullable: false),
+                    Id_Departamento = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_AsignaturaCursoEscolar", x => new { x.AsignaturasId, x.CursoEscolarsId });
+                    table.PrimaryKey("PK_Profesor", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_AsignaturaCursoEscolar_asignatura_AsignaturasId",
-                        column: x => x.AsignaturasId,
-                        principalTable: "asignatura",
+                        name: "FK_Profesor_Departamento_Id_Departamento",
+                        column: x => x.Id_Departamento,
+                        principalTable: "Departamento",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
-                        name: "FK_AsignaturaCursoEscolar_curso_escolar_CursoEscolarsId",
-                        column: x => x.CursoEscolarsId,
-                        principalTable: "curso_escolar",
+                        name: "FK_Profesor_persona_Id",
+                        column: x => x.Id,
+                        principalTable: "persona",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                })
+                .Annotation("MySql:CharSet", "utf8mb4");
+
+            migrationBuilder.CreateTable(
+                name: "asignatura",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
+                    Nombre = table.Column<string>(type: "varchar(100)", maxLength: 100, nullable: true)
+                        .Annotation("MySql:CharSet", "utf8mb4"),
+                    Creditos = table.Column<float>(type: "float", nullable: false),
+                    IdTipoAsignatura = table.Column<int>(type: "int", nullable: false),
+                    Curso = table.Column<int>(type: "int", nullable: false),
+                    Cuatrimestre = table.Column<int>(type: "int", nullable: false),
+                    Id_Profesor = table.Column<int>(type: "int", nullable: true),
+                    Id_Grado = table.Column<int>(type: "int", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_asignatura", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_asignatura_Profesor_Id_Profesor",
+                        column: x => x.Id_Profesor,
+                        principalTable: "Profesor",
+                        principalColumn: "Id");
+                    table.ForeignKey(
+                        name: "FK_asignatura_TipoAsignatura_IdTipoAsignatura",
+                        column: x => x.IdTipoAsignatura,
+                        principalTable: "TipoAsignatura",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_asignatura_grado_Id_Grado",
+                        column: x => x.Id_Grado,
+                        principalTable: "grado",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                 })
@@ -204,56 +242,6 @@ namespace Persistence.Data.Migrations
                 })
                 .Annotation("MySql:CharSet", "utf8mb4");
 
-            migrationBuilder.CreateTable(
-                name: "AsignaturaPersona",
-                columns: table => new
-                {
-                    AsignaturasId = table.Column<int>(type: "int", nullable: false),
-                    PersonasId = table.Column<int>(type: "int", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_AsignaturaPersona", x => new { x.AsignaturasId, x.PersonasId });
-                    table.ForeignKey(
-                        name: "FK_AsignaturaPersona_asignatura_AsignaturasId",
-                        column: x => x.AsignaturasId,
-                        principalTable: "asignatura",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
-                    table.ForeignKey(
-                        name: "FK_AsignaturaPersona_persona_PersonasId",
-                        column: x => x.PersonasId,
-                        principalTable: "persona",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
-                })
-                .Annotation("MySql:CharSet", "utf8mb4");
-
-            migrationBuilder.CreateTable(
-                name: "CursoEscolarPersona",
-                columns: table => new
-                {
-                    CursoEscolarsId = table.Column<int>(type: "int", nullable: false),
-                    PersonasId = table.Column<int>(type: "int", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_CursoEscolarPersona", x => new { x.CursoEscolarsId, x.PersonasId });
-                    table.ForeignKey(
-                        name: "FK_CursoEscolarPersona_curso_escolar_CursoEscolarsId",
-                        column: x => x.CursoEscolarsId,
-                        principalTable: "curso_escolar",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
-                    table.ForeignKey(
-                        name: "FK_CursoEscolarPersona_persona_PersonasId",
-                        column: x => x.PersonasId,
-                        principalTable: "persona",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
-                })
-                .Annotation("MySql:CharSet", "utf8mb4");
-
             migrationBuilder.CreateIndex(
                 name: "IX_AlumnoMatriculaAsignatura_Id_Alumno",
                 table: "AlumnoMatriculaAsignatura",
@@ -275,24 +263,24 @@ namespace Persistence.Data.Migrations
                 column: "Id_Profesor");
 
             migrationBuilder.CreateIndex(
-                name: "IX_AsignaturaCursoEscolar_CursoEscolarsId",
-                table: "AsignaturaCursoEscolar",
-                column: "CursoEscolarsId");
+                name: "IX_asignatura_IdTipoAsignatura",
+                table: "asignatura",
+                column: "IdTipoAsignatura");
 
             migrationBuilder.CreateIndex(
-                name: "IX_AsignaturaPersona_PersonasId",
-                table: "AsignaturaPersona",
-                column: "PersonasId");
+                name: "IX_persona_IdGenero",
+                table: "persona",
+                column: "IdGenero");
 
             migrationBuilder.CreateIndex(
-                name: "IX_CursoEscolarPersona_PersonasId",
-                table: "CursoEscolarPersona",
-                column: "PersonasId");
+                name: "IX_persona_IdRol",
+                table: "persona",
+                column: "IdRol");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Profesor_DepartamentoId",
+                name: "IX_Profesor_Id_Departamento",
                 table: "Profesor",
-                column: "DepartamentoId");
+                column: "Id_Departamento");
         }
 
         /// <inheritdoc />
@@ -302,31 +290,31 @@ namespace Persistence.Data.Migrations
                 name: "AlumnoMatriculaAsignatura");
 
             migrationBuilder.DropTable(
-                name: "AsignaturaCursoEscolar");
-
-            migrationBuilder.DropTable(
-                name: "AsignaturaPersona");
-
-            migrationBuilder.DropTable(
-                name: "CursoEscolarPersona");
-
-            migrationBuilder.DropTable(
                 name: "asignatura");
 
             migrationBuilder.DropTable(
                 name: "curso_escolar");
 
             migrationBuilder.DropTable(
-                name: "persona");
+                name: "Profesor");
+
+            migrationBuilder.DropTable(
+                name: "TipoAsignatura");
 
             migrationBuilder.DropTable(
                 name: "grado");
 
             migrationBuilder.DropTable(
-                name: "Profesor");
+                name: "Departamento");
 
             migrationBuilder.DropTable(
-                name: "Departamento");
+                name: "persona");
+
+            migrationBuilder.DropTable(
+                name: "Genero");
+
+            migrationBuilder.DropTable(
+                name: "Rol");
         }
     }
 }

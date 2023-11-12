@@ -17,6 +17,10 @@ namespace Persistence.Data.Configuration
             builder.Property(e => e.Nombre)
                 .HasMaxLength(100);
 
+            builder.Property(u => u.Id_Profesor)
+            .IsRequired(false); 
+
+
             builder.HasOne(p => p.Profesor)
                 .WithMany(p => p.Asignaturas)
                 .HasForeignKey(p => p.Id_Profesor);
@@ -24,6 +28,12 @@ namespace Persistence.Data.Configuration
             builder.HasOne(p => p.Grado)
                 .WithMany(p => p.Asignaturas)
                 .HasForeignKey(p => p.Id_Grado);
+
+            builder.HasOne(p => p.TipoAsignatura)
+                .WithMany(p => p.Asignaturas)
+                .HasForeignKey(p => p.IdTipoAsignatura);
         }
     }
-}
+} 
+
+
