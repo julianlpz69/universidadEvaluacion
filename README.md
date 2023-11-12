@@ -173,8 +173,13 @@ Ruta : http://localhost:5214/api/asignatura/SinProfe
 
 ### 16. Devuelve un listado con todos los departamentos que tienen alguna asignatura que no se haya impartido en ningún curso escolar. El resultado debe mostrar el nombre del departamento y el nombre de la asignatura que no se haya impartido nunca.
 
-Ruta : http://localhost:5214/api/asignatura/SinProfe
+Ruta : http://localhost:5214/api/departamento/AsignaturasSinImpartir
 
+![Captura de pantalla 2023-11-11 222938](https://github.com/julianlpz69/universidadEvaluacion/assets/131847060/ebc6bf43-7a6a-45a5-bb60-e36d09b3a49e)
+
+![Captura de pantalla 2023-11-11 222918](https://github.com/julianlpz69/universidadEvaluacion/assets/131847060/aeb3dd2c-c11f-458f-ba58-1cd15a2e3ca0)
+
+![Captura de pantalla 2023-11-11 222925](https://github.com/julianlpz69/universidadEvaluacion/assets/131847060/bcf72896-f4b8-4056-a2c8-5134f68c0a13)
 
 <br><br>
 
@@ -238,3 +243,101 @@ Ruta : http://localhost:5214/api/grado/mayor40
 ![Captura de pantalla 2023-11-11 212857](https://github.com/julianlpz69/universidadEvaluacion/assets/131847060/71fa654f-5484-4134-8293-14c65c3fc802)
 
 ![Captura de pantalla 2023-11-11 212844](https://github.com/julianlpz69/universidadEvaluacion/assets/131847060/97049de3-e0a6-4993-b756-a8cf85e4dfb9)
+
+
+
+<br><br>
+
+### 23. Devuelve un listado que muestre el nombre de los grados y la suma del número total de créditos que hay para cada tipo de asignatura. El resultado debe tener tres columnas: nombre del grado, tipo de asignatura y la suma de los créditos de todas las asignaturas que hay de ese tipo. Ordene el resultado de mayor a menor por el número total de crédidos.
+
+Ruta : http://localhost:5214/api/grado/SumaCreditos
+
+![Captura de pantalla 2023-11-11 214026](https://github.com/julianlpz69/universidadEvaluacion/assets/131847060/a7f1fd6b-981c-42d0-bdd8-379fc37c22a9)
+
+![Captura de pantalla 2023-11-11 214017](https://github.com/julianlpz69/universidadEvaluacion/assets/131847060/75b16e60-3287-4067-a6b2-adc01ba601ed)
+
+
+<br><br>
+
+### 24. Devuelve un listado que muestre cuántos alumnos se han matriculado de alguna asignatura en cada uno de los cursos escolares. El resultado deberá mostrar dos columnas, una columna con el año de inicio del curso escolar y otra con el número de alumnos matriculados.
+
+Ruta : http://localhost:5214/api/cursoescolar/AlumnosAños
+
+![Captura de pantalla 2023-11-11 214716](https://github.com/julianlpz69/universidadEvaluacion/assets/131847060/b42caf22-197e-4491-bee2-847475516ac7)
+
+![Captura de pantalla 2023-11-11 214703](https://github.com/julianlpz69/universidadEvaluacion/assets/131847060/3e87d993-ee0a-4bc6-9310-2aa51cd5e126)
+
+
+<br><br>
+
+### 25. Devuelve un listado con el número de asignaturas que imparte cada profesor. El listado debe tener en cuenta aquellos profesores que no imparten ninguna asignatura. El resultado mostrará cinco columnas: id, nombre, primer apellido, segundo apellido y número de asignaturas. El resultado estará ordenado de mayor a menor por el número de asignaturas.
+
+Ruta : http://localhost:5214/api/profesor/AsignaturasXProfe
+
+![Captura de pantalla 2023-11-11 215137](https://github.com/julianlpz69/universidadEvaluacion/assets/131847060/3ec05369-5f57-4428-b3ba-e097982c4f2f)
+
+![Captura de pantalla 2023-11-11 215123](https://github.com/julianlpz69/universidadEvaluacion/assets/131847060/8e2a20cd-8fd7-4c95-966f-640c39b5962c)
+
+<br><br>
+
+### 26. Devuelve todos los datos del alumno más joven.
+
+Ruta : http://localhost:5214/api/persona/MasJoven
+
+![Captura de pantalla 2023-11-11 220151](https://github.com/julianlpz69/universidadEvaluacion/assets/131847060/4ad51f8e-eb67-4a7c-8672-52e68bbd2fb9)
+
+![Captura de pantalla 2023-11-11 220139](https://github.com/julianlpz69/universidadEvaluacion/assets/131847060/b779ad3b-181e-462b-956c-dbb1bc9d5130)
+
+
+<br><br>
+
+### 27. Devuelve un listado con los profesores que no están asociados a un departamento.
+
+Ruta : http://localhost:5214/api/profesor/SinDepartamento
+
+![Captura de pantalla 2023-11-11 220717](https://github.com/julianlpz69/universidadEvaluacion/assets/131847060/f556f7fb-a130-4ece-a65c-b56185ce470a)
+
+![Captura de pantalla 2023-11-11 220721](https://github.com/julianlpz69/universidadEvaluacion/assets/131847060/a3072498-c8bc-4dea-9922-98c519938a22)
+
+Todos los porfes tienen un departamento
+<br><br>
+
+### 28. Devuelve un listado con los departamentos que no tienen profesores asociados.
+
+Ruta : http://localhost:5214/api/departamento/SinProfes
+
+![Captura de pantalla 2023-11-11 200921](https://github.com/julianlpz69/universidadEvaluacion/assets/131847060/3c7e4118-13c9-49dd-9c5f-5db994e2f194)
+
+![Captura de pantalla 2023-11-11 200909](https://github.com/julianlpz69/universidadEvaluacion/assets/131847060/6f1851ce-4230-4426-a736-e057598bc5ce)
+
+<br><br>
+
+### 29. Devuelve un listado con los profesores que tienen un departamento asociado y que no imparten ninguna asignatura.
+
+Ruta : http://localhost:5214/api/profesor/ProfesConYSin
+
+![Captura de pantalla 2023-11-11 221349](https://github.com/julianlpz69/universidadEvaluacion/assets/131847060/c59a89a7-285d-4440-90ec-fba830d9db49)
+
+![Captura de pantalla 2023-11-11 221341](https://github.com/julianlpz69/universidadEvaluacion/assets/131847060/ddd7cb21-4c6f-402d-b841-e5889c5d822f)
+
+
+<br><br>
+
+### 30. Devuelve un listado con las asignaturas que no tienen un profesor asignado.
+
+Ruta : http://localhost:5214/api/asignatura/SinProfe
+
+![Captura de pantalla 2023-11-11 203013](https://github.com/julianlpz69/universidadEvaluacion/assets/131847060/06418c7c-530e-43ec-b29b-fd628f6acc75)
+
+![Captura de pantalla 2023-11-11 202942](https://github.com/julianlpz69/universidadEvaluacion/assets/131847060/4eaeacbc-1993-4745-a45d-4081c212195f)
+
+
+<br><br>
+
+### 31. Devuelve un listado con todos los departamentos que no han impartido asignaturas en ningún curso escolar.
+
+Ruta : http://localhost:5214/api/departamento/SinAsignaturas
+
+![Captura de pantalla 2023-11-11 222313](https://github.com/julianlpz69/universidadEvaluacion/assets/131847060/21341e4b-4638-4f1a-b21c-912d10a683b4)
+
+![Captura de pantalla 2023-11-11 222153](https://github.com/julianlpz69/universidadEvaluacion/assets/131847060/6c887d38-c17b-48fa-9a29-34ff447bcf52)
